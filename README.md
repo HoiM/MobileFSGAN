@@ -1,6 +1,6 @@
 # Migrating Face Swap to Mobile Devices: A lightweight Framework and A Supervised Training Solution
 
-### Intro
+### Introduction
 
 This is the repository for the source code of the papar: Migrating Face Swap to Mobile Devices: A lightweight Framework and A Supervised Training Solution
 
@@ -8,7 +8,7 @@ Accepted to [ICME 2022](http://2022.ieeeicme.org/)
 
 [arXiv]()
 
-### Preferable Configurations
+### Preferable configurations
 
 torch==1.6.0
 
@@ -44,7 +44,7 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 
 ### Performance
 
-##### Qualitative Performance
+##### Qualitative performance
 
-
+![Selected results](params/Performance.png)
 
