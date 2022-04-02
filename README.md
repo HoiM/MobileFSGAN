@@ -8,6 +8,10 @@ Accepted to [ICME 2022](http://2022.ieeeicme.org/)
 
 [arXiv]()
 
+### Framework overview
+
+![Selected results](./modules/Framework.png)
+
 ### Preferable configurations
 
 torch==1.6.0
@@ -46,5 +50,5 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 
 ##### Qualitative performance
 
-![Selected results](./params/Performance.png)
+![](./modules/Performance.png)
 
