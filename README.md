@@ -5,9 +5,9 @@
 This is the repository for the source code of the papar \
 *Migrating Face Swap to Mobile Devices: A lightweight Framework and A Supervised Training Solution*
 
-Accepted to IEEE International Conference on Multimedia and Expo 2022 ([ICME 2022](http://2022.ieeeicme.org/))
+Accepted to IEEE International Conference on Multimedia and Expo 2022
 
-[arXiv]()
+[[ICME 2022](http://2022.ieeeicme.org/)] [[arXiv]()]
 
 ### Framework overview
 
