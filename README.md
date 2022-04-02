@@ -4,7 +4,7 @@
 
 This is the repository for the source code of the papar: Migrating Face Swap to Mobile Devices: A lightweight Framework and A Supervised Training Solution
 
-Accepted to [ICME 2022](http://2022.ieeeicme.org/)
+Accepted to IEEE International Conference on Multimedia and Expo 2022 ([ICME 2022](http://2022.ieeeicme.org/))
 
 [arXiv]()
 
@@ -51,4 +51,17 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 ##### Qualitative performance
 
 ![](./modules/Performance.png)
+
+### Citation
+
+If you find my work useful, please cite:
+
+```
+@article{gan,
+author = {Haiming Yu and Hao Zhu and Xiangju Lu and Junhui Liu},
+title = {Migrating Face Swap to Mobile Devices: A lightweight Framework and A Supervised Training Solution},
+journal = {in ICME}, 
+year = 2022
+}
+```
 
