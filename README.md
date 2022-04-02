@@ -46,5 +46,5 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 
 ##### Qualitative performance
 
-![Selected results](params/Performance.png)
+![Selected results](./params/Performance.png)
 
