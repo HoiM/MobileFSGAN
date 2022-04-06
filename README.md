@@ -47,7 +47,7 @@ Basically, the `__getitem__` function returns five elements:
 
 Note that images are with shape being (3, 256, 256) and values in (-1, 1). Images are in format `torch.tensor` with `dtype` being `torch.float32`.
 
-After that, reset the arugments inside `main.py` and refer to `run_training.sh`. Note that my implementation uses `DistributedDataParallel` on 4 GPUs within one machine. Please adjust the settings based on your iown hardware. 
+After that, reset the arugments inside `main.py` and refer to `run_training.sh`. Note that my implementation uses `DistributedDataParallel` on 4 GPUs within one machine. Please adjust the settings based on your own hardware. 
 
 ### Performance
 
