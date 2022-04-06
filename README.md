@@ -44,7 +44,8 @@ Basically, the `__getitem__` function returns five elements:
 * `GT`: the ground truth image. If none, an equivalent tensor with all values being -1. 
 * `with_gt`: (`torch.float32`) whether the training data has a ground truth label (the value can be either `1` or `0`).
 * `src_as_true`: (`bool`) used to indicate whether the source or the target is a real image. Selected real images are used to feed the discrimiator.
-Images are with shape being (3, 256, 256) and values in (-1, 1). Images are in format `torch.tensor` with `dtype` being `torch.float32`.
+
+Note that images are with shape being (3, 256, 256) and values in (-1, 1). Images are in format `torch.tensor` with `dtype` being `torch.float32`.
 
 After that, reset the arugments inside `main.py` and refer to `run_training.sh`. Note that my implementation uses `DistributedDataParallel` on 4 GPUs within one machine. Please adjust the settings based on your iown hardware. 
 
