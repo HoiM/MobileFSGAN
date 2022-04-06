@@ -23,7 +23,7 @@ cuda version: 10.2
 
 ### How to use the code
 
-First of all, I strongly recommend implementing your own `dataset` class for loading training data. Since my implemenation is based the structure of my `data` folder. 
+Firstly, I strongly recommend implementing your own `dataset` class for loading training data, since my implemenation is based the structure of my `data` folder. 
 ```
 class FaceShifterDataset(torch.utils.data.TensorDataset):
     def __init__(self):
@@ -42,10 +42,10 @@ Basically, the `__getitem__` function returns five elements:
 * `Xs`: the source image (shape: (3, 256, 256), values in (-1, 1))
 * `Xt`: the target image
 * `GT`: the ground truth image. If none, an equivalent tensor with all values being -1. 
-* `with_gt`: whether the training data has a ground truth label (data type: torch.float32).
+* `with_gt`: whether the training data has a ground truth label (the value can be either `1` or `0`, data type: `torch.float32`).
 * `src_as_true`: used to indicate whether the source or the target is a real image. Selected real images are used to feed the discrimiator.
 
-After that, reset the arugments inside `main.py` and refer to `run_training.sh`. Note that my implementation uses `DistributedDataParallel` on 4 GPUs within one machine. Please adjust the settings based on your hardware. 
+After that, reset the arugments inside `main.py` and refer to `run_training.sh`. Note that my implementation uses `DistributedDataParallel` on 4 GPUs within one machine. Please adjust the settings based on your iown hardware. 
 
 ### Performance
 
