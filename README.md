@@ -57,13 +57,13 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 
 ##### Comparisons of model size
 
-Model                 | Model Size (MB)
-FaceShifter (PyTorch) | 669.0 + 64.0 + 168.0
-MegaFS (PyTorch)      | 3529.0 + 364.0
-SimSwap (PyTorch)     | 766.9 + 220.2
-Ours (Pytorch)        | 10.2 + 4.9
-Ours (CoreML)         | 15.0
-Ours (TNN)            | 14.8
+| Model                 | Model Size (MB)      |
+| FaceShifter (PyTorch) | 669.0 + 64.0 + 168.0 |
+| MegaFS (PyTorch)      | 3529.0 + 364.0       |
+| SimSwap (PyTorch)     | 766.9 + 220.2        |
+| Ours (Pytorch)        | 10.2 + 4.9           |
+| Ours (CoreML)         | 15.0                 |
+| Ours (TNN)            | 14.8                 |
 
 ### Citation
 
