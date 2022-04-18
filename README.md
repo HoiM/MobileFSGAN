@@ -55,9 +55,11 @@ After that, reset the arugments inside `main.py` and refer to `run_training.sh`.
 
 ![](./modules/Performance.png)
 
+
 ##### Comparisons of model size
 
 | Model                 | Model Size (MB)      |
+|-----------------------|----------------------|
 | FaceShifter (PyTorch) | 669.0 + 64.0 + 168.0 |
 | MegaFS (PyTorch)      | 3529.0 + 364.0       |
 | SimSwap (PyTorch)     | 766.9 + 220.2        |
