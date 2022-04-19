@@ -7,7 +7,7 @@ This is the repository for the source code of the papar \
 
 Accepted to IEEE International Conference on Multimedia and Expo 2022
 
-[[ICME 2022](http://2022.ieeeicme.org/)] [[arXiv]()]
+[[ICME 2022](http://2022.ieeeicme.org/)] [[arXiv](https://arxiv.org/abs/2204.08339)]
 
 ### Framework overview
 
